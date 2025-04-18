@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <div id="input-section" class="input-section">
+      <h1>TIC TAC TOE</h1>
+      <input type="text" id="player-1" placeholder="Player 1 enter name" />
+      <input type="text" id="player-2" placeholder="Player 2 enter name" />
+      <button id="submit">Start Game</button>
+    </div>
 
+    <div id="game-section" class="hidden game-section">
+      <h1>TIC TAC TOE</h1>
+      <div class="message" id="message"></div>
+      <div class="board" id="board">
+        <!-- Cells -->
+        <div class="cell" id="cell-0"></div>
+        <div class="cell" id="cell-1"></div>
+        <div class="cell" id="cell-2"></div>
+        <div class="cell" id="cell-3"></div>
+        <div class="cell" id="cell-4"></div>
+        <div class="cell" id="cell-5"></div>
+        <div class="cell" id="cell-6"></div>
+        <div class="cell" id="cell-7"></div>
+        <div class="cell" id="cell-8"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
